@@ -50,9 +50,9 @@ class Baseclass:
         try:
             locator_type = locator_type.lower()
             element = self.waitforElement(locator_value,locator_type)
-            self.log.info(f"Element found with locatortype: " + locator_value + "with the locator value" + locator_type)
+            self.log.info(f"Element found with locatortype: " + locator_type + "with the locator value" + locator_value)
         except:
-            self.log.info(f"Element not found with locatortype: " + locator_value + "and the locator value is: " + locator_type)
+            self.log.info(f"Element not found with locatortype: " + locator_type + "and the locator value is: " + locator_value)
 
         return element
 
@@ -62,10 +62,29 @@ class Baseclass:
             locator_type = locator_type.lower()
             element = self.waitforElement(locator_value,locator_type)
             element.click()
-            self.log.info(f"Clicked on Element found with locatortype: " + locator_value + "and the locator value is :" + locator_type)
+            self.log.info(f"Clicked on Element found with locatortype: " + locator_type + "and the locator value is :" + locator_value)
         except:
-            self.log.info(f"Unable to click on the locator with locatortype: " + locator_value + "and with the locator value is:" + locator_type)
+            self.log.info(f"Unable to click on the locator with locatortype: " + locator_type + "and with the locator value is:" + locator_value)
 
+    def sendText(self,text, locator_value, locator_type="id"):
+        element = None
+        try:
+            locator_type = locator_type.lower()
+            element = self.waitforElement(locator_value, locator_type)
+            element.send_keys(text)
+            self.log.info(f"Send text to Element found with locatortype: " + locator_type + "and the locator value is :" + locator_value)
+        except:
+            self.log.info(f"Unable to send text to the locator with locatortype: " + locator_type + "and with the locator value is:" + locator_value)
+
+    def isDisplayed(self, locator_value, locator_type="id"):
+        element = None
+        try:
+            locator_type = locator_type.lower()
+            element = self.waitforElement(locator_value, locator_type)
+            element.is_displayed()
+            self.log.info(f"element with locatortype: " + locator_type + "and the locator value :" + locator_value + "is displayed")
+        except:
+            self.log.info(f"Element with locatortype: " + locator_type + "and with the locator value is:" + locator_value)
 
 
 
