@@ -1,3 +1,5 @@
+import time
+
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common.exceptions import ElementNotVisibleException, NoSuchElementException, ElementNotSelectableException
 from selenium.webdriver.support.wait import WebDriverWait
@@ -87,5 +89,15 @@ class Baseclass:
         except:
             self.log.info(f"Element with locatortype: " + locator_type + "and with the locator value is:" + locator_value + "is not displayed")
             return False
+
+    def screeenShots(self, screenshotName):
+        fileNAme = screenshotName + " " + (time.strftime("%d_%m_%y_%H_%M_%S"))+".png"
+        screeshotlocation = "../screenshots/"
+        screenshotpath = screeshotlocation + fileNAme
+        try:
+            self.driver.save_screenshot(screenshotpath)
+            self.log.info(f"Screenshots captured successfully and path is : {screenshotpath}")
+        except:
+            self.log.info(f"Screenshots didn't capture successfully and path is : {screenshotpath}")
 
 

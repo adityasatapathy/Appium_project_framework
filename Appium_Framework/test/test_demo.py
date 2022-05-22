@@ -15,6 +15,8 @@ base = Baseclass(driver)
 # element = base.waitforElement("com.code2lead.kwad:id/ContactUs", "id")
 # element.click()
 
+# taking the screenshot after lunching the app"
+base.screeenShots("Lunched the app")
 # to check element is displayed or not
 element = base.isDisplayed("com.code2lead.kwad:id/ContactUs", "id")
 print(element)
@@ -24,6 +26,7 @@ base.clickelement("com.code2lead.kwad:id/ContactUs", "id")
 
 # After clicking on contact us then we are sending text using send_keys method from Baseclass
 base.sendText("Aditya", "Enter Name", "text")
+base.screeenShots("All task executed")
 
 
 
