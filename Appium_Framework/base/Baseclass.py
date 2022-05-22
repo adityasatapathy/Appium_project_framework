@@ -83,8 +83,9 @@ class Baseclass:
             element = self.waitforElement(locator_value, locator_type)
             element.is_displayed()
             self.log.info(f"element with locatortype: " + locator_type + "and the locator value :" + locator_value + "is displayed")
+            return True
         except:
-            self.log.info(f"Element with locatortype: " + locator_type + "and with the locator value is:" + locator_value)
-
+            self.log.info(f"Element with locatortype: " + locator_type + "and with the locator value is:" + locator_value + "is not displayed")
+            return False
 
 
