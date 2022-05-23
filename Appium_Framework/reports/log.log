@@ -1,0 +1,8 @@
+23/05/22 10:38:55 AM Monday - <module> - INFO : App lunched successfully
+23/05/22 10:38:56 AM Monday - Baseclass - INFO : Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/ContactUs
+23/05/22 10:38:57 AM Monday - Baseclass - INFO : element with locatortype: textand the locator value :Contact Us formis displayed
+23/05/22 10:38:58 AM Monday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Name
+23/05/22 10:38:59 AM Monday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Email
+23/05/22 10:39:01 AM Monday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Address
+23/05/22 10:39:02 AM Monday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Mobile No
+23/05/22 10:39:03 AM Monday - Baseclass - INFO : Clicked on Element found with locatortype: textand the locator value is :SUBMIT
