@@ -1,0 +1,2 @@
+[32mINFO    [0m Baseclass:Baseclass.py:69 Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/ContactUs
+[32mINFO    [0m Baseclass:Baseclass.py:91 element with locatortype: textand the locator value :Contact Us formis displayed

@@ -1,9 +1,11 @@
 import time
 
+from allure_commons.types import AttachmentType
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.common.exceptions import ElementNotVisibleException, NoSuchElementException, ElementNotSelectableException
 from selenium.webdriver.support.wait import WebDriverWait
 import Appium_Framework.utilities.CustomLogger as cl
+import allure
 
 
 class Baseclass:
@@ -77,6 +79,8 @@ class Baseclass:
             self.log.info(f"Send text to Element found with locatortype: " + locator_type + "and the locator value is :" + locator_value)
         except:
             self.log.info(f"Unable to send text to the locator with locatortype: " + locator_type + "and with the locator value is:" + locator_value)
+            self.take_screenshot(locator_type)
+            assert False
 
     def isDisplayed(self, locator_value, locator_type="id"):
         element = None
@@ -99,5 +103,8 @@ class Baseclass:
             self.log.info(f"Screenshots captured successfully and path is : {screenshotpath}")
         except:
             self.log.info(f"Screenshots didn't capture successfully and path is : {screenshotpath}")
+
+    def take_screenshot(self, text):
+        allure.attach(self.driver.get_screenshot_as_png(), name=text, attachment_type=AttachmentType.PNG)
 
 

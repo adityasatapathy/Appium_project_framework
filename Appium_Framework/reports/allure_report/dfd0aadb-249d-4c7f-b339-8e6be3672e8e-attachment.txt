@@ -1,0 +1,5 @@
+[32mINFO    [0m Baseclass:Baseclass.py:77 Send text to Element found with locatortype: textand the locator value is :Enter Name
+[32mINFO    [0m Baseclass:Baseclass.py:77 Send text to Element found with locatortype: textand the locator value is :Enter Email
+[32mINFO    [0m Baseclass:Baseclass.py:77 Send text to Element found with locatortype: textand the locator value is :Enter Address
+[32mINFO    [0m Baseclass:Baseclass.py:77 Send text to Element found with locatortype: textand the locator value is :Enter Mobile No
+[32mINFO    [0m Baseclass:Baseclass.py:67 Clicked on Element found with locatortype: textand the locator value is :SUBMIT

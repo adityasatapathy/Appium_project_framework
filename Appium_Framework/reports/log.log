@@ -41,3 +41,23 @@
 24/05/22 10:34:28 AM Tuesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Address
 24/05/22 10:34:29 AM Tuesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Mobile No
 24/05/22 10:34:30 AM Tuesday - Baseclass - INFO : Clicked on Element found with locatortype: textand the locator value is :SUBMIT
+25/05/22 10:19:27 AM Wednesday - Baseclass - INFO : Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/ContactUs
+25/05/22 10:19:29 AM Wednesday - Baseclass - INFO : element with locatortype: textand the locator value :Contact Us formis displayed
+25/05/22 10:19:30 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Name
+25/05/22 10:19:32 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Email
+25/05/22 10:19:33 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Address
+25/05/22 10:19:34 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Mobile No
+25/05/22 10:19:35 AM Wednesday - Baseclass - INFO : Clicked on Element found with locatortype: textand the locator value is :SUBMIT
+25/05/22 10:26:03 AM Wednesday - Baseclass - INFO : Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/ContactUs
+25/05/22 10:26:04 AM Wednesday - Baseclass - INFO : element with locatortype: textand the locator value :Contact Us formis displayed
+25/05/22 10:26:05 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Name
+25/05/22 10:26:07 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Email
+25/05/22 10:26:08 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Address
+25/05/22 10:26:09 AM Wednesday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Mobile No
+25/05/22 10:26:10 AM Wednesday - Baseclass - INFO : Clicked on Element found with locatortype: textand the locator value is :SUBMIT
+26/05/22 10:18:30 AM Thursday - Baseclass - INFO : Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/ContactUs
+26/05/22 10:18:31 AM Thursday - Baseclass - INFO : element with locatortype: textand the locator value :Contact Us formis displayed
+26/05/22 10:18:32 AM Thursday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Name
+26/05/22 10:18:33 AM Thursday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Email
+26/05/22 10:18:34 AM Thursday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Address
+26/05/22 10:19:00 AM Thursday - Baseclass - INFO : Unable to send text to the locator with locatortype: textand with the locator value is:mobile

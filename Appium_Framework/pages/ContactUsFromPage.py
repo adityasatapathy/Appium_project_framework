@@ -1,4 +1,5 @@
 from Appium_Framework.base.Baseclass import Baseclass
+import Appium_Framework.utilities.CustomLogger as cl
 
 
 class ContactUsFor(Baseclass):
@@ -17,9 +18,11 @@ class ContactUsFor(Baseclass):
 
     def clickContactUsFrom(self):
         self.clickelement(self._contactUSFromButton, "id")
+        cl.allureLogs("Clicked on Contact US From Button")
 
     def verifyContactPage(self):
         element = self.isDisplayed(self._pageTitile, "text")
+        cl.allureLogs("COntact Us From has been Verified")
         assert element == True
 
     def enterName(self):

@@ -26,6 +26,7 @@ class TestContactUsForm(unittest.TestCase):
     def test_open_contact_form(self):
         self.cf.clickContactUsFrom()
         self.cf.verifyContactPage()
+        cl.allureLogs("App lunched")
 
     @pytest.mark.run(order=2)
     def test_enter_data(self):
