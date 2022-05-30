@@ -107,4 +107,8 @@ class Baseclass:
     def take_screenshot(self, text):
         allure.attach(self.driver.get_screenshot_as_png(), name=text, attachment_type=AttachmentType.PNG)
 
+    def key_code(self, value):
+        self.driver.press_keycode(value)
+
+
 

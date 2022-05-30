@@ -1,0 +1,2 @@
+[32mINFO    [0m Baseclass:Baseclass.py:69 Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/Login
+[32mINFO    [0m Baseclass:Baseclass.py:81 Unable to send text to the locator with locatortype: indexand with the locator value is:Enter Admin

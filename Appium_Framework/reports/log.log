@@ -61,3 +61,9 @@
 26/05/22 10:18:33 AM Thursday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Email
 26/05/22 10:18:34 AM Thursday - Baseclass - INFO : Send text to Element found with locatortype: textand the locator value is :Enter Address
 26/05/22 10:19:00 AM Thursday - Baseclass - INFO : Unable to send text to the locator with locatortype: textand with the locator value is:mobile
+30/05/22 10:57:32 AM Monday - Baseclass - INFO : Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/Login
+30/05/22 10:57:32 AM Monday - Baseclass - INFO : Unable to send text to the locator with locatortype: indexand with the locator value is:Enter Admin
+30/05/22 10:57:58 AM Monday - Baseclass - INFO : Unable to send text to the locator with locatortype: textand with the locator value is:Enter Admin
+30/05/22 10:58:52 AM Monday - Baseclass - INFO : Clicked on Element found with locatortype: idand the locator value is :com.code2lead.kwad:id/Login
+30/05/22 10:58:52 AM Monday - Baseclass - INFO : Unable to send text to the locator with locatortype: indexand with the locator value is:Enter Admin
+30/05/22 10:59:19 AM Monday - Baseclass - INFO : Unable to send text to the locator with locatortype: textand with the locator value is:Enter Admin

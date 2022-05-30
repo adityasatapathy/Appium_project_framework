@@ -1,0 +1,1 @@
+[32mINFO    [0m Baseclass:Baseclass.py:81 Unable to send text to the locator with locatortype: textand with the locator value is:Enter Admin
